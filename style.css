@@ -29,25 +29,13 @@ button{
     padding: 5px;
 }
 .card{
-    width: 300px;
+    display: flex;
+    width: 30%;
     border: 3px solid blue;
-    padding: 20px;x
-}
-.card img{
-    width: 100% ;
-}
-.card1{
-    width: 300px;
-    border: 3px solid blue;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
     flex-direction: column;
 }
-.card1 img{
-    width:100% ;
-}
-.card1 h2{
+#mescartes{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
