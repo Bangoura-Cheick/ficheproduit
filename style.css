@@ -2,30 +2,23 @@
     margin: 0;
     padding: 0;
 }
- header img{
-    width: 50%;
-}
-header div{
-    width: 50%;
-    background-color: black;
-    color: white;
-    display: flex;
+header{
+    display:flex;
+    background-color: dimgrey;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    img{
+        width: 100%;
+    }
 }
-
-button{
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
+#Produits{
+    display: flex;
+    align-items: center;
 }
 .card{
     display: flex;
     width: 30%;
-    border: 3px solid blue;
+    border: 3px solid black;
     padding: 20px;
     flex-direction: column;
     gap: 10px;
