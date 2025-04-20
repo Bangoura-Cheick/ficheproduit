@@ -15,12 +15,6 @@ header div{
     flex-direction: column;
 }
 
-header{
-    display: flex;
-}
-header p{
-    margin: 20px;
-}
 button{
     background-color: red;
     color: white;
@@ -34,8 +28,44 @@ button{
     border: 3px solid blue;
     padding: 20px;
     flex-direction: column;
+    gap: 10px;
 }
 #mescartes{
+    border: 1px solid black;
     display: flex;
+    justify-content: space-around;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    gap: 40px;
+    margin: auto;
+    width: 100%;
+}
+#formmessage{
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+ } 
+nav{
+    display: flex;
+    color: beige;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+h2{
+    margin-bottom: 2px;
+}
+#entete{
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
