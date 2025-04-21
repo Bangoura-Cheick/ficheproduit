@@ -3,13 +3,40 @@
     padding: 0;
 }
 header{
-    display:flex;
-    background-color: dimgrey;
-    justify-content: center;
-    flex-direction: row;
-    img{
-        width: 100%;
+    background-color: white;
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        width: 33%;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            list-style: none;
+        }
     }
+}
+
+#Contact{
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    button{
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+.form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
 }
 #Produits{
     display: flex;
@@ -35,23 +62,12 @@ header{
 }
 .input{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 .form{
     display: flex;
-    background-color:gray;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin: auto;
-    width: 100%;
-    button{
-        background-color: gray
-        color: white;
-        padding: 10px;
-        border-radius: 5px;
-    }
+    height: 200px;
 }
 #formmessage{
     margin: auto;
@@ -61,7 +77,7 @@ header{
 nav{
     display: flex;
     color: beige;
-    justify-content: end;
+    justify-content: space-around;
 }
 h2{
     margin-bottom: 2px;
@@ -71,11 +87,7 @@ h2{
     flex-direction: column;
     justify-content: space-around;
 }
-.Products{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 h1{
     flex-direction: column;
 }
