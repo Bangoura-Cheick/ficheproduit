@@ -7,14 +7,26 @@ header{
     display: flex;
     text-align: end;
     justify-content: space-between;
+    
     ul{
         display: flex;
         width: 33%;
         justify-content: space-around;
         align-items: center;
+        text-decoration: none; 
         li{
             list-style: none;
+        
         }
+    }
+}
+.Produits{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: rgb(16, 26, 26);;
+    img{
+        width: 50%;
     }
 }
 
@@ -33,19 +45,14 @@ header{
     }
 }
 .Products{
-    flex-direction: column;
+    display: flex;
+    flex-direction: flex;
 }
 .form{
     display: flex;
     justify-content:center;
     align-items: center;
     height: 200px;
-}
-.Nosproduits{
-    display: flex;
-    border: 2px black solid;
-    width: 50%;
-    flex-direction: column;
 }
 .card{
     display: flex;
